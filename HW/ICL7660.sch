@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ICL7660-rescue
 LIBS:suf
 LIBS:conn
 LIBS:device
@@ -11,7 +12,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -30,7 +30,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 27 0
+LIBS:ICL7660-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -71,7 +72,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3500 6400 3350
 $Comp
-L GND #PWR3
+L GND-RESCUE-ICL7660 #PWR3
 U 1 1 540E1443
 P 5250 3950
 F 0 "#PWR3" H 5250 3950 30  0001 C CNN
@@ -114,7 +115,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 3800 6700 3800
 $Comp
-L GND #PWR5
+L GND-RESCUE-ICL7660 #PWR5
 U 1 1 540E1489
 P 6400 4100
 F 0 "#PWR5" H 6400 4100 30  0001 C CNN
@@ -138,7 +139,7 @@ F 3 "" H 4400 3700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND-RESCUE-ICL7660 #PWR2
 U 1 1 540E15B3
 P 4750 3950
 F 0 "#PWR2" H 4750 3950 30  0001 C CNN
